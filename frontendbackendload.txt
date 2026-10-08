@@ -1,0 +1,10 @@
+Before running any of this make sure you are inside the "connected" folder.
+Frontend load: 
+cd frontend
+python -m http.server 5173
+paste "http://localhost:5173/" in chrome browser
+
+Backend load:
+cd backend
+uvicorn app.main:app --reload
+paste "http://127.0.0.1:8000/docs" in chrome browser
