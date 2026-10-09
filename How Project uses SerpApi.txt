@@ -1,0 +1,18 @@
+How GONTOBBO uses SerpApi
+
+SerpApi connects GONTOBBO to travel-search results. When someone searches in our app, the request goes first to our FastAPI backend. The backend then sends the relevant search to SerpApi, receives the response, organizes the data, and sends it back to the frontend to display.
+
+Example: Hotel search
+The user enters a destination, travel dates, and guest or room details. Our backend sends those details to SerpApi’s Google Hotels engine. SerpApi returns available hotel information—such as property names, prices, ratings, reviews, amenities, and photos, when provided. GONTOBBO formats the results into hotel cards that users can browse, filter, sort, and compare.
+If contact information is available, GONTOBBO can also request hotel details using the property’s token. When needed, the backend can use SerpApi’s Google Maps engine to look up a hotel contact number.
+
+Example: Flight search
+
+The user enters an origin, destination, departure date, and passenger details. Our backend sends these to SerpApi’s Google Flights engine. The response can include airline and flight information, departure and arrival details, journey duration, stops, and prices. GONTOBBO organizes these into flight options for users to review.
+The request flow
+The user enters travel details in GONTOBBO.
+The frontend sends those details to our FastAPI backend.
+The backend chooses the relevant SerpApi engine—Google Hotels, Google Flights, or, for some hotel-contact lookups, Google Maps.
+SerpApi returns search data to the backend.
+The backend prepares the data and sends it to the frontend for display.
+The SerpApi key is kept on the backend rather than exposed in the browser. SerpApi provides search information; it does not book trips or process payments. The train section is separate and directs users to IRCTC; GONTOBBO does not use SerpApi to retrieve train schedules.
