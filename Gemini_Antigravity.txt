@@ -1,0 +1,6 @@
+Google Gemini — Frontend development
+The frontend was developed partly by our team and partly with help from Google Gemini. We built and customized portions of the interface and forms, while Gemini assisted with other frontend elements. 
+Google Antigravity — Backend development
+I used Antigravity to help build the backend that connects the frontend to the app’s services. The backend handles requests for hotel and flight searches and processes the data returned for the frontend.
+Google Gemini - Database, Authentication
+My teammate used it sparsely for developing such
