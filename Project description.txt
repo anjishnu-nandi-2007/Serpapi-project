@@ -1,1 +1,3 @@
-GONTOBBO is a travel discovery platform that brings hotel and flight search into one place. Travelers can search stays and routes, review and filter available options, and save favorites or recently viewed items. It also provides a train travel flow that directs users to the official IRCTC website. GONTOBBO helps users explore and compare options; bookings are completed with the relevant provider.
+GONTOBBO is a travel discovery platform that brings hotel and flight search into one place. Travelers can search stays and routes, review and filter available options, and save favorites or recently viewed items. 
+
+It also provides a train travel flow that directs users to the official IRCTC website. GONTOBBO helps users explore and compare options; bookings are completed with the relevant provider.
