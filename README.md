@@ -3,7 +3,6 @@
 
 GONTOBBO is a travel discovery platform that helps users compare hotel and flight options in one place using live SerpApi-powered search results. The app is designed for fast, intuitive travel planning and supports hotel searches, flight searches, and combined travel discovery flows.
 
-Live Demo: [Add your deployment URL here]
 Project Type: Hackathon / Full-stack web app
 
 ## Why this project
